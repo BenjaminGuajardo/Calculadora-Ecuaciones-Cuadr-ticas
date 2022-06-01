@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://pbs.twimg.com/media/FUJa6o7VEAEobX9?format=png&name=240x240">
+    <link rel="stylesheet" href="style.css">
+    <title>Cálculadora Ecuaciones Cuadráticas</title>
+</head>
+<body>
+    <div id="Color_de_pagina">
+        
+    <div id="Todo">
+
+    </div> 
+       
+    <div id="Fondo">
+    <br>
+    <div id="Encabezado">
+        <center>
+            <img src="https://pbs.twimg.com/media/FUJg3O1UsAEBlgz?format=jpg&name=medium">
+        </center>
+    </div>
+    <br>
+    </div>
+    <div id="Contenido">
+        <center>
+            <h2>
+            Ecuaciones cuadráticas o de segundo grado resueltas mediante la fórmula general
+        </h2>
+        </center>
+    </div>
+    <div>
+        
+       <script>
+           
+var a = prompt("Valor de a");
+var a_definida = parseInt(a);
+var b = prompt("Valor de b");
+var b_definida = parseInt(b);
+var c = prompt("Valor de c");
+var c_definida = parseInt(c);
+var b_cuadrada = b_definida * b_definida; 
+var menos_b_operacion = -b_definida;
+var menos_b_definida = parseInt(menos_b_operacion);
+var ac = a_definida * c_definida;
+var ac_definida = parseInt(ac);
+var cuatro = 4;
+var cuatroac = cuatro * ac;   
+var b_cuadrada_menos_cuatroac_operacion = b_cuadrada - cuatroac;
+var b_cuadrada_menos_cuatroac_definida = parseInt(b_cuadrada_menos_cuatroac_operacion);
+var raiz_cuadrada_operacion = Math.sqrt(b_cuadrada_menos_cuatroac_definida);
+var dos = 2;
+var dos_definida = dos;
+var dos_a = dos * a;
+var numerador = menos_b_operacion + raiz_cuadrada_operacion;
+var x1 = numerador / dos_a;
+       </script>
+       <script>
+                   var b_cuadrada = b_definida * b_definida; 
+        var menos_b_operacion = -b_definida;
+        var menos_b_definida = parseInt(menos_b_operacion);
+        var ac = a_definida * c_definida;
+        var ac_definida = parseInt(ac);
+        var cuatro = 4;
+        var cuatroac = cuatro * ac;   
+        var b_cuadrada_menos_cuatroac_operacion = b_cuadrada - cuatroac;
+        var b_cuadrada_menos_cuatroac_definida = parseInt(b_cuadrada_menos_cuatroac_operacion);
+        var raiz_cuadrada_operacion = Math.sqrt(b_cuadrada_menos_cuatroac_definida);
+        var dos = 2;
+        var dos_definida = dos;
+        var dos_a = dos * a;
+        var numerador_x2 = menos_b_definida - raiz_cuadrada_operacion;
+        var x2 = numerador_x2 / dos_a;
+       </script>
+       <div id="Valores">
+<h3>
+    El valor que has asignado para a es:
+</h3>       
+       <script>
+           document.write(a_definida);
+       </script>
+       <h3>
+           El valor que has asignado para b es:
+       </h3>
+       <script>
+           document.write(b_definida);
+       </script>
+       <br>
+       <h3>
+           El valor que has asignado para c es:
+       </h3>
+       <script>
+           document.write(c_definida);
+       </script>
+       <br>
+       <br>
+       <h2>
+           Por lo tanto, el valor de X1 es:
+       </h2>
+       <script>
+           document.write(x1);
+       </script>
+       <br>
+       <h2>
+           Por lo tanto el valor de x2 es:
+       </h2>
+       <script>
+           document.write(x2);
+       </script>
+       </div>
+       <div id="Apartado_Procedimiento">
+        <center>
+            <h2>
+            Procedimiento mediante la fórmula general
+        </h2>
+        </center>
+    </div>
+       <div id="Procedimiento_x1">
+           <center>
+               <h3>
+               -b ± √ b^2 - 4ac / 2a
+               </h3>
+           </center>
+           <br>
+           <center>
+            <h3>
+                -(<script>document.write(b_definida);</script>) ± [√ (<script>document.write(b_definida);</script>)^2] - [4(<script>document.write(a_definida);</script>)(<script>document.write(c_definida);</script>)] / [2(<script>document.write(a_definida);</script>)]    
+            </h3>
+        </center>
+        <br>
+        <center>
+            <h3>
+                -<script>document.write(b_definida);</script> ± [√ (<script>document.write(b_cuadrada);</script> - <script>document.write(cuatroac);</script>)] / <script>document.write(dos_a);</script>        
+            </h3>
+        </center>
+        <br>
+        <center>
+            <h3>
+                -<script>document.write(b_definida);</script> ± (√ <script>document.write(b_cuadrada_menos_cuatroac_definida);</script>) / <script>document.write(dos_a);</script>        
+            </h3>
+        </center>
+        <br>
+        <center>
+            <h3>
+                -<script>document.write(b_definida);</script> ± <script>document.write(raiz_cuadrada_operacion);</script> / <script>document.write(dos_a);</script>        
+            </h3>
+        </center>
+        <br>
+        <br>
+        <center>
+            <h3>
+                El valor para X1 se obtiene sumando:
+            </h3>
+        </center>
+        <br>        
+        <center>
+            <h3>
+                -<script>document.write(b_definida);</script> + <script>document.write(raiz_cuadrada_operacion);</script>) / <script>document.write(dos_a);</script>        
+            </h3>
+        </center>
+        <center>
+            <h3>
+                <script>document.write(numerador);</script>) / <script>document.write(dos_a);</script>        
+            </h3>
+        </center>
+        <center>
+            <h3>
+                <script>document.write(x1);</script>
+            </h3>
+        </center>       
+        <br>
+        <br>                
+        <center>
+            <h3>
+                El valor para X2 se obtiene restando:
+            </h3>
+        </center>
+        <br>        
+        <center>
+            <h3>
+                -<script>document.write(b_definida);</script> - <script>document.write(raiz_cuadrada_operacion);</script>) / <script>document.write(dos_a);</script>        
+            </h3>
+        </center>
+        <center>
+            <h3>
+                <script>document.write(numerador_x2);</script>) / <script>document.write(dos_a);</script>        
+            </h3>
+        </center>
+        <center>
+            <h3>
+                <script>document.write(x2);</script>
+            </h3>
+        </center>       
+        <br>                        
+    </div>
+</div>
+<div id="Apartado_Teoria">
+    <center>
+        <h2>
+        ¿Qué es la fórmula general?
+    </h2>
+    </center>
+</div>
+<div id="Teoria">
+    <center>
+    <h3>
+        La fórmula general es un método dentro de la rama de la álgebra en matemáticas, cuya función es obtener el valor, o valores, de una variable (generalmente usamos "x" para referirnos a la variable) en una ecuación cuadrática o ecuación de segungo grado, una ecuación del tipo: "ax^2+bx+c=0". Siguiendo todos los pasos, respetando las jerarquías y usando los datos correctos lograremos obtener por lo general 2 posisbles variables.
+    </h3>
+    </center>
+</div>
+<br>
+<br>
+<br>
+    </div>
+    <center>
+    <footer id="Footer">
+        <h5>
+            Esta página fue creada por Benjamín Guajardo
+        </h5>
+    </footer>
+    </center>
+</body>
+</html>

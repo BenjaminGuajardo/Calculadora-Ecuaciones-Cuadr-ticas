@@ -1,0 +1,54 @@
+div#todo{
+    background-color:cadetblue;
+    margin: auto;
+    width: 480px;
+    height: 960px;
+}
+
+div#Encabezado{
+    margin-top: 20px;
+    background-color: aqua;
+}
+
+div#Fondo{
+    background-color:darkgray;
+}
+
+div#Contenido{
+    background-color: bisque;
+}
+@font-face {
+    font-family: Verdana;
+    src: url();
+}
+
+h2{font-family: Verdana;}
+
+div#Valores{
+    margin: 35px;
+}
+@font-face {
+    font-family: Helvetica;
+    src: url();
+}
+h3{font-family: Helvetica;}
+
+h2{font-family: Helvetica;}
+
+div#Apartado_Procedimiento{
+    background-color: bisque;
+}
+
+div#valores{
+    background-color: rgb(230, 216, 230);
+}
+div#Apartado_Teoria{
+    background-color: bisque;    
+}
+
+div#Teoria{
+    margin-top: 15px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
